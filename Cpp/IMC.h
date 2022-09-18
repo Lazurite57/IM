@@ -1,5 +1,5 @@
 // C++ includes used for precompiling -*- C++ -*-
-
+// hello! this is a cooperation test!
 // Copyright (C) 2003-2015 Free Software Foundation, Inc.
 //
 // This file is part of the GNU ISO C++ Library.  This library is free
