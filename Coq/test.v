@@ -1,0 +1,22 @@
+Require Import Notations Logic Datatypes.
+Require Decimal Hexadecimal Number.
+Local Open Scope nat_scope.
+
+Definition pred (n : nat) : nat :=
+    match n with
+        | 0 => 0
+        | S n' => n'
+    end.
+
+Theorem plus_id_exercise : forall n m o : nat,
+  n = m -> m = o -> n + m = m + o.
+Proof.
+  intros m n o.
+  intros H1 H2.
+  rewrite -> H1,H2.
+  reflexivity.
+Qed.
+
+(* Example test_ltb1: (ltb 2 2) = false. *)
+(* Proof. simpl. reflexivity.  Qed. *)
+Compute (pred 10).

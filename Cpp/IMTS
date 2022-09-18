@@ -1,0 +1,11 @@
+//IM type system
+#pragma once
+#ifndef _IMTS_
+#define _IMTS_
+
+#include "IMC.h"
+
+// ord:in linear listed elem
+template <typename T> concept order = std::unsigned_integral<T>;
+
+#endif

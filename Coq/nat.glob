@@ -1,0 +1,197 @@
+DIGEST 6437b5b222fdcfbb36cd54f596ce75cf
+Fnat
+R24:29 Coq.Strings.String <> <> lib
+ind 62:65 <> bool
+constr 83:86 <> true
+constr 94:98 <> false
+def 113:116 <> negb
+R121:124 nat <> bool ind
+binder 119:119 <> b:3
+R129:132 nat <> bool ind
+R147:147 nat <> b:3 var
+R164:167 nat <> true constr
+R172:176 nat <> false constr
+R188:192 nat <> false constr
+R197:200 nat <> true constr
+def 223:226 <> andb
+R232:235 nat <> bool ind
+binder 229:230 <> b1:5
+R242:245 nat <> bool ind
+binder 239:240 <> b2:6
+R250:253 nat <> bool ind
+R268:269 nat <> b1:5 var
+R286:289 nat <> true constr
+R294:295 nat <> b2:6 var
+R307:311 nat <> false constr
+R316:320 nat <> false constr
+def 343:345 <> orb
+R351:354 nat <> bool ind
+binder 348:349 <> b1:8
+R361:364 nat <> bool ind
+binder 358:359 <> b2:9
+R369:372 nat <> bool ind
+R387:388 nat <> b1:8 var
+R405:408 nat <> true constr
+R413:416 nat <> true constr
+R428:432 nat <> false constr
+R437:438 nat <> b2:9 var
+def 461:465 <> nandb
+R471:474 nat <> bool ind
+binder 468:469 <> b1:11
+R481:484 nat <> bool ind
+binder 478:479 <> b2:12
+R489:492 nat <> bool ind
+R509:510 nat <> b2:12 var
+R505:506 nat <> b1:11 var
+R521:524 nat <> true constr
+R527:530 nat <> true constr
+R535:539 nat <> false constr
+R553:556 nat <> true constr
+R588:591 nat <> andb def
+not 575:575 <> :::x_'&&'_x
+R621:623 nat <> orb def
+not 608:608 <> :::x_'||'_x
+ind 663:665 <> nat
+constr 687:687 <> O
+constr 722:722 <> S
+R729:731 nat <> nat:15 ind
+binder 725:725 <> n:17
+def 745:747 <> eqb
+R756:758 nat <> nat ind
+binder 750:750 <> n:18
+binder 752:752 <> m:19
+R763:766 nat <> bool ind
+R781:781 nat <> n:18 var
+R798:798 nat <> O constr
+R809:809 nat <> m:19 var
+R834:834 nat <> O constr
+R839:842 nat <> true constr
+R862:862 nat <> S constr
+R870:874 nat <> false constr
+R906:906 nat <> S constr
+R920:920 nat <> m:19 var
+R949:949 nat <> O constr
+R954:958 nat <> false constr
+R982:982 nat <> S constr
+R990:992 nat <> eqb:20 def
+def 1039:1041 <> leb
+R1050:1052 nat <> nat ind
+binder 1044:1044 <> n:24
+binder 1046:1046 <> m:25
+R1057:1060 nat <> bool ind
+R1073:1073 nat <> n:24 var
+R1084:1084 nat <> O constr
+R1089:1092 nat <> true constr
+R1098:1098 nat <> S constr
+R1118:1118 nat <> m:25 var
+R1133:1133 nat <> O constr
+R1138:1142 nat <> false constr
+R1152:1152 nat <> S constr
+R1160:1162 nat <> leb:26 def
+def 1199:1201 <> ltb
+R1210:1212 nat <> nat ind
+binder 1204:1204 <> n:29
+binder 1206:1206 <> m:30
+R1217:1220 nat <> bool ind
+R1230:1232 nat <> leb def
+R1234:1234 nat <> n:29 var
+R1236:1236 nat <> m:30 var
+def 1251:1254 <> pred
+R1261:1263 nat <> nat ind
+binder 1257:1257 <> n:31
+R1268:1270 nat <> nat ind
+R1285:1285 nat <> n:31 var
+R1302:1302 nat <> O constr
+R1307:1307 nat <> O constr
+R1319:1319 nat <> S constr
+def 1349:1353 <> evenb
+R1358:1360 nat <> nat ind
+binder 1356:1356 <> n:33
+R1365:1368 nat <> bool ind
+R1383:1383 nat <> n:33 var
+R1400:1400 nat <> O constr
+R1405:1408 nat <> true constr
+R1420:1420 nat <> S constr
+R1422:1422 nat <> O constr
+R1427:1431 nat <> false constr
+R1443:1443 nat <> S constr
+R1446:1446 nat <> S constr
+R1455:1459 nat <> evenb:34 def
+def 1485:1488 <> oddb
+R1493:1495 nat <> nat ind
+binder 1491:1491 <> n:36
+R1500:1503 nat <> bool ind
+R1510:1513 nat <> negb def
+R1516:1520 nat <> evenb def
+R1522:1522 nat <> n:36 var
+def 1536:1539 <> plus
+R1546:1548 nat <> nat ind
+binder 1542:1542 <> n:37
+R1556:1558 nat <> nat ind
+binder 1552:1552 <> m:38
+R1563:1565 nat <> nat ind
+R1580:1580 nat <> n:37 var
+R1597:1597 nat <> O constr
+R1602:1602 nat <> m:38 var
+R1614:1614 nat <> S constr
+R1622:1622 nat <> S constr
+R1625:1628 nat <> plus:39 def
+R1633:1633 nat <> m:38 var
+def 1655:1659 <> minus
+R1666:1668 nat <> nat ind
+binder 1662:1662 <> n:41
+binder 1664:1664 <> m:42
+R1673:1675 nat <> nat ind
+R1693:1693 nat <> m:42 var
+R1690:1690 nat <> n:41 var
+R1710:1710 nat <> O constr
+R1719:1719 nat <> O constr
+R1731:1731 nat <> S constr
+R1737:1737 nat <> O constr
+R1742:1742 nat <> n:41 var
+R1754:1754 nat <> S constr
+R1760:1760 nat <> S constr
+R1768:1772 nat <> minus:43 def
+def 1799:1802 <> mult
+R1811:1813 nat <> nat ind
+binder 1805:1805 <> n:46
+binder 1807:1807 <> m:47
+R1818:1820 nat <> nat ind
+R1835:1835 nat <> n:46 var
+R1852:1852 nat <> O constr
+R1857:1857 nat <> O constr
+R1869:1869 nat <> S constr
+R1877:1880 nat <> plus def
+R1882:1882 nat <> m:47 var
+R1885:1888 nat <> mult:48 def
+R1893:1893 nat <> m:47 var
+def 1915:1917 <> exp
+R1933:1935 nat <> nat ind
+binder 1920:1923 <> base:50
+binder 1925:1929 <> power:51
+R1940:1942 nat <> nat ind
+R1957:1961 nat <> power:51 var
+R1978:1978 nat <> O constr
+R1983:1983 nat <> S constr
+R1985:1985 nat <> O constr
+R1997:1997 nat <> S constr
+R2004:2007 nat <> mult def
+R2009:2012 nat <> base:50 var
+R2015:2017 nat <> exp:52 def
+R2019:2022 nat <> base:50 var
+def 2046:2054 <> factorial
+R2061:2063 nat <> nat ind
+binder 2057:2057 <> n:54
+R2068:2070 nat <> nat ind
+R2085:2085 nat <> n:54 var
+R2102:2102 nat <> O constr
+R2108:2108 nat <> S constr
+R2110:2110 nat <> O constr
+R2123:2123 nat <> S constr
+R2131:2134 nat <> mult def
+R2137:2137 nat <> S constr
+R2144:2152 nat <> factorial:55 def
+def 2176:2190 <> test_factorial1
+R2194:2194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2206:2209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2195:2203 nat <> factorial def

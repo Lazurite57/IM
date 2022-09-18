@@ -1,0 +1,8 @@
+#pragma once
+#ifndef _IMCM_
+#define _IMCM_
+
+#include "IMC.h"
+
+#include "CM/IMFsm.hpp"
+#endif

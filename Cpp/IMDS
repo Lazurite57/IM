@@ -1,0 +1,14 @@
+#pragma once
+#ifndef _IMDS_
+#define _IMDS_
+
+#include "IMC.h"
+
+#include "DS/IMDS.hpp"
+#include "DS/IMGraph.hpp"
+#include "DS/IMLinear.hpp"
+// #include "DS/IMTree.hpp"
+
+//exception
+
+#endif

@@ -1,0 +1,9 @@
+#pragma once
+#ifndef _IMSTR_
+#define _IMSTR_
+
+#include "IMC.h"
+
+#include "Str/IMParse.hpp"
+
+#endif

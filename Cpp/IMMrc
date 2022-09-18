@@ -1,0 +1,14 @@
+#pragma once
+#ifndef _IMMrc_
+#define _IMMrc_
+
+#define _ALIAS_TEMPLATE_FUNCTION_(highLevelF, lowLevelF)\
+template<typename... Args>\
+inline auto highLevelF(Args&&... args) -> decltype(lowLevelF(std::forward<Args>(args)...))\
+{\
+    return lowLevelF(std::forward<Args>(args)...);\
+}
+
+#define _TYPE_NAME_(type) #type
+
+#endif

@@ -1,0 +1,35 @@
+DIGEST 872fff1769291f86a82e8cc16cc9acb2
+Ftest
+R15:23 Coq.Init.Notations <> <> lib
+R25:29 Coq.Init.Logic <> <> lib
+R31:39 Coq.Init.Datatypes <> <> lib
+R50:56 Coq.Init.Decimal <> <> lib
+R58:68 Coq.Init.Hexadecimal <> <> lib
+R70:75 Coq.Init.Number <> <> lib
+def 118:121 <> pred
+R128:130 Coq.Init.Datatypes <> nat ind
+binder 124:124 <> n:1
+R135:137 Coq.Init.Datatypes <> nat ind
+R152:152 test <> n:1 var
+R186:186 Coq.Init.Datatypes <> S constr
+prf 215:230 <> plus_id_exercise
+R249:251 Coq.Init.Datatypes <> nat ind
+binder 241:241 <> n:3
+binder 243:243 <> m:4
+binder 245:245 <> o:5
+R261:264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R257:259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R256:256 test <> n:3 var
+R260:260 test <> m:4 var
+R270:273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R266:268 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R265:265 test <> m:4 var
+R269:269 test <> o:5 var
+R279:281 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R275:277 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R274:274 test <> n:3 var
+R278:278 test <> m:4 var
+R283:285 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R282:282 test <> m:4 var
+R286:286 test <> o:5 var
+R461:464 test <> pred def
